@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "35223905945",
+    "project_id": "biometric-app-bc897",
+    "storage_bucket": "biometric-app-bc897.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:35223905945:android:3976242c3fc33389073a08",
+        "android_client_info": {
+          "package_name": "com.example.biometric_app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDywdX-r6oaMXSyJZXQgHF4GfV8vncrbo0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

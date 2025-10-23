@@ -1,0 +1,13 @@
+analyzer:
+  language:
+    strict-raw-types: true
+    strict-casts: true
+  errors:
+    avoid_dynamic_calls: ignore
+    # directives_ordering: ignore
+    inference_failure_on_function_invocation: ignore
+    lines_longer_than_80_chars: ignore
+include: package:very_good_analysis/analysis_options.6.0.0.yaml
+linter:
+  rules:
+    public_member_api_docs: false

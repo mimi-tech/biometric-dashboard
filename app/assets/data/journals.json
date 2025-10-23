@@ -1,0 +1,18 @@
+[
+  { "date": "2025-08-02", "mood": 2, "note": "Bad sleep" },
+  { "date": "2025-08-12", "mood": 5, "note": "Great run" },
+  { "date": "2025-08-15", "mood": 3, "note": "Stressful day" },
+  { "date": "2025-08-20", "mood": 4, "note": "Good workout" },
+  { "date": "2025-08-25", "mood": 2, "note": "Tired" },
+  { "date": "2025-08-30", "mood": 5, "note": "Excellent day" },
+  { "date": "2025-09-05", "mood": 3, "note": "Average day" },
+  { "date": "2025-09-10", "mood": 4, "note": "Productive" },
+  { "date": "2025-09-15", "mood": 1, "note": "Very tired" },
+  { "date": "2025-09-20", "mood": 5, "note": "Amazing energy" },
+  { "date": "2025-09-25", "mood": 3, "note": "Normal day" },
+  { "date": "2025-09-30", "mood": 4, "note": "Good progress" },
+  { "date": "2025-10-05", "mood": 2, "note": "Low energy" },
+  { "date": "2025-10-10", "mood": 5, "note": "Perfect day" },
+  { "date": "2025-10-15", "mood": 3, "note": "Steady" },
+  { "date": "2025-10-20", "mood": 4, "note": "Feeling strong" }
+]

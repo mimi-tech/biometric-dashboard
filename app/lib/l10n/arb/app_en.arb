@@ -1,0 +1,144 @@
+{
+    "@@locale": "en",
+    "counterAppBarTitle": "Counter",
+    "@counterAppBarTitle": {
+        "description": "Text shown in the AppBar of the Counter Page"
+    },
+    "biometricsDashboardTitle": "Biometrics Dashboard",
+    "@biometricsDashboardTitle": {
+        "description": "Title for the biometrics dashboard page"
+    },
+    "noDataAvailable": "No Data Available",
+    "@noDataAvailable": {
+        "description": "Title shown when no biometric data is available"
+    },
+    "noDataAvailableDescription": "There is no biometric data to display at the moment.",
+    "@noDataAvailableDescription": {
+        "description": "Description shown when no biometric data is available"
+    },
+    "somethingWentWrong": "Something went wrong",
+    "@somethingWentWrong": {
+        "description": "Title shown when an error occurs"
+    },
+    "retry": "Retry",
+    "@retry": {
+        "description": "Text for retry button"
+    },
+    "anErrorOccurred": "An error occurred",
+    "@anErrorOccurred": {
+        "description": "Default error message when no specific error is provided"
+    },
+    "hrvAvg": "HRV Avg ({period})",
+    "@hrvAvg": {
+        "description": "HRV average label with period placeholder",
+        "placeholders": {
+            "period": {
+                "type": "String"
+            }
+        }
+    },
+    "rhrAvg": "RHR Avg ({period})",
+    "@rhrAvg": {
+        "description": "RHR average label with period placeholder",
+        "placeholders": {
+            "period": {
+                "type": "String"
+            }
+        }
+    },
+    "stepsTotal": "Steps Total ({period})",
+    "@stepsTotal": {
+        "description": "Steps total label with period placeholder",
+        "placeholders": {
+            "period": {
+                "type": "String"
+            }
+        }
+    },
+    "largeDataset": "Large Dataset",
+    "@largeDataset": {
+        "description": "Label for large dataset toggle"
+    },
+    "dateRange7d": "7d",
+    "@dateRange7d": {
+        "description": "Label for 7 days date range"
+    },
+    "dateRange30d": "30d",
+    "@dateRange30d": {
+        "description": "Label for 30 days date range"
+    },
+    "dateRange90d": "90d",
+    "@dateRange90d": {
+        "description": "Label for 90 days date range"
+    },
+    "hrv": "HRV",
+    "@hrv": {
+        "description": "HRV chart title"
+    },
+    "hrvMs": "HRV (ms)",
+    "@hrvMs": {
+        "description": "HRV axis label with unit"
+    },
+    "rhr": "RHR",
+    "@rhr": {
+        "description": "RHR chart title"
+    },
+    "rhrBpm": "RHR (bpm)",
+    "@rhrBpm": {
+        "description": "RHR axis label with unit"
+    },
+    "steps": "Steps",
+    "@steps": {
+        "description": "Steps chart title"
+    },
+    "hrvTooltip": "{date}\nHRV {value} ms\nMean {mean} ms\nStd Dev {stdDev}",
+    "@hrvTooltip": {
+        "description": "HRV chart tooltip format",
+        "placeholders": {
+            "date": {
+                "type": "String"
+            },
+            "value": {
+                "type": "String"
+            },
+            "mean": {
+                "type": "String"
+            },
+            "stdDev": {
+                "type": "String"
+            }
+        }
+    },
+    "rhrTooltip": "{date}\nRHR {value} bpm",
+    "@rhrTooltip": {
+        "description": "RHR chart tooltip format",
+        "placeholders": {
+            "date": {
+                "type": "String"
+            },
+            "value": {
+                "type": "String"
+            }
+        }
+    },
+    "stepsTooltip": "{date}\nSteps {value}",
+    "@stepsTooltip": {
+        "description": "Steps chart tooltip format",
+        "placeholders": {
+            "date": {
+                "type": "String"
+            },
+            "value": {
+                "type": "String"
+            }
+        }
+    },
+    "userName": "John Doe",
+    "@userName": {
+        "description": "Default user name placeholder"
+    },
+    "userEmail": "john.doe@example.com",
+    "@userEmail": {
+        "description": "Default user email placeholder"
+    }
+}
