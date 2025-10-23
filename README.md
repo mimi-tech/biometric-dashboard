@@ -18,10 +18,9 @@ Built as part of the Unfold AI Flutter Developer Assessment.
 
 ## 🌐 Live Demo
 You can try the live web demo here:  
-👉 [Biometric Dashboard Demo](https://www.loom.com/share/ed732ec0dee24b209639a3aca81bb418)
+👉 [Biometric Dashboard Demo](https://www.loom.com/share/322131ca423b47ba8b5765b2820e8f9b)
 
-![Biometrics Dashboard Preview](assets/demo/demo_screenshot.png)
-
+<img width="500" height="500" alt="Image" src="https://github.com/user-attachments/assets/8bee6706-fbbe-4b20-8d14-5f5f317a4ca2" />
 
 This project contains 3 flavors:
 
@@ -33,13 +32,14 @@ To run the desired flavor either use the launch configuration in VSCode/Android 
 
 ```sh
 # Development
-$ flutter run --flavor development --target lib/main_development.dart
+$ cd app
+$ flutter run -d chrome --flavor development --target lib/main_development.dart
 
 # Staging
-$ flutter run --flavor staging --target lib/main_staging.dart
+$ flutter run -d chrome --flavor staging --target lib/main_staging.dart
 
 # Production
-$ flutter run --flavor production --target lib/main_production.dart
+$ flutter run -d chrome --flavor production --target lib/main_production.dart
 ```
 
 _\*Biometric App works on iOS, Android, and Web._
@@ -57,6 +57,8 @@ $ very_good test --coverage --test-randomize-ordering-seed random
 To view the generated coverage report you can use [lcov](https://github.com/linux-test-project/lcov).
 
 ```sh
+Navigate to the app folder 
+$ cd app
 # Generate Coverage Report
 $ genhtml coverage/lcov.info -o coverage/
 
