@@ -18,9 +18,9 @@ Built as part of the Unfold AI Flutter Developer Assessment.
 
 ## 🌐 Live Demo
 You can try the live web demo here:  
-👉 [Biometric Dashboard Demo](https://www.loom.com/share/322131ca423b47ba8b5765b2820e8f9b)
+👉 [Biometric Dashboard Demo](https://www.loom.com/share/844ef08544cc4c45968a8a1b35bd0088)
 
-<img width="500" height="500" alt="Image" src="https://github.com/user-attachments/assets/8bee6706-fbbe-4b20-8d14-5f5f317a4ca2" />
+<img width="800" height="600" alt="Image" src="https://github.com/user-attachments/assets/8bee6706-fbbe-4b20-8d14-5f5f317a4ca2" />
 
 This project contains 3 flavors:
 
@@ -57,8 +57,12 @@ $ very_good test --coverage --test-randomize-ordering-seed random
 To view the generated coverage report you can use [lcov](https://github.com/linux-test-project/lcov).
 
 ```sh
-Navigate to the app folder 
+# Navigate to the app folder 
 $ cd app
+
+# Run the test
+$ flutter test --coverage
+
 # Generate Coverage Report
 $ genhtml coverage/lcov.info -o coverage/
 
